@@ -1,7 +1,7 @@
-
 aliens = [] 
 
-for alien_num in range(1,27):
+
+for alien_num in range(30):
 
     new_alien = {
         "color" : "green",
@@ -10,5 +10,7 @@ for alien_num in range(1,27):
     }
     aliens.append(new_alien)
 
-for alien in aliens:
+for alien in aliens[:5]:
     print(alien)
+
+print("\t\n Total number of aliens : {}".format(len(aliens)))
