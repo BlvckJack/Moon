@@ -1,3 +1,5 @@
-Added gitignore files to ignore unnecessary files
+The alien file displays a total number of aliens with descriptive features in a dictionary-list
 
-The alien-python file just basically displays and prints out a number of aliens in a list of dictionary, one after the other
+
+
+
